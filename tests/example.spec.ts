@@ -29,4 +29,3 @@ test('Add product to cart', async({page}) => {
   await page.getByRole('button', { name: 'Add to cart' }).click();
   await page.getByRole('link', { name: 'View cart' }).click();
 });
-
